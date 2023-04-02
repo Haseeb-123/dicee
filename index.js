@@ -17,7 +17,8 @@ if (randomNumber1 > randomNumber2) {
   
   document.querySelector("h1").textContent = winnerText;
 
-
+function buttonColor() {
+  document.querySelector("button").style.backgroundColor='Green';}
 
 
 
